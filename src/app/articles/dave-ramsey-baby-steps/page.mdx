@@ -1,0 +1,66 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import daveRamsey from './dave-ramsey.png'
+
+export const article = {
+  author: 'Aldon Isenberg',
+  date: '2022-10-03',
+  title: 'Dave Ramsey\'s Baby Steps',
+  description:
+    'How I learned of Dave Ramsey and his baby steps, and how I used them to get out of debt and build wealth.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+I'm now almost 1/3rd the way to 100, and I'm feeling pretty good about it. I'm close to becoming debt free; a goal I had been working for since 2016 when I first started listening to Dave Ramsey
+
+<Image src={daveRamsey} alt="" />
+
+Here are the Baby Steps, and how I've been doing with them.
+
+## The Baby Steps
+
+1. $1000 Emergency Fund
+2. Pay off all debt except the house
+3. 3-6 months of expenses in savings
+4. Invest 15% of household income into Roth IRAs and pre-tax retirement
+5. College funding for children
+6. Pay off home early
+7. Build wealth and give
+
+
+```js
+const debt = {
+  creditCards: 1000,
+  car: 5000,
+  studentLoans: 10000,
+}
+const portfolio = {
+  stocks: 10000,
+  bonds: 5000,
+  cash: 1000,
+}
+
+const totalDebt = Object.values(debt).reduce((a, b) => a + b, 0);
+const totalPortfolio = Object.values(portfolio).reduce((a, b) => a + b, 0);
+
+const netWorth = totalPortfolio - totalDebt;
+
+if (netWorth > 0) {
+  console.log('You are doing great, you should be debt free!');
+  if (totalDebt === 0) {
+    console.log('You are debt free, congratulations!');
+  } else {
+    console.log('You are playing with fire!');
+  }
+} else {
+  console.log('Keep working hard, you will get there!');
+} 
+
+```
+
