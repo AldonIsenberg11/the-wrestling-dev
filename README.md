@@ -1,6 +1,3 @@
-# Spotlight
-
-Spotlight is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
 
 ## Getting started
 
@@ -24,6 +21,14 @@ npm run dev
 
 Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
 
+
+## Debugging Prod Server
+You will need the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed
+
+```
+heroku logs --tail -a the-wrestling-dev
+```
+
 ## Customizing
 
 You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
@@ -40,3 +45,7 @@ To learn more about the technologies used in this site template, see the followi
 - [Next.js](https://nextjs.org/docs) - the official Next.js documentation
 - [Headless UI](https://headlessui.dev) - the official Headless UI documentation
 - [MDX](https://mdxjs.com) - the MDX documentation
+
+## Spotlight
+
+Spotlight is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
