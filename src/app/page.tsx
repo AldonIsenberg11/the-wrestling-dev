@@ -11,10 +11,10 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+import logoKwc from '@/images/logos/ks-wrestling-center.svg'
+import logoFloSports from '@/images/logos/flosports.svg'
+import logoFreightview from '@/images/logos/freightview.svg'
+import logoScottLogistics from '@/images/logos/scott-logistics.svg'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -187,35 +187,35 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
-      logo: logoPlanetaria,
-      start: '2019',
+      company: 'FloSports',
+      title: 'Software Engineer',
+      logo: logoFloSports,
+      start: '2022',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
+      company: 'Freightview',
+      title: 'Software Engineer',
+      logo: logoFreightview,
+      start: '2016',
+      end: '2022',
+    },
+    {
+      company: 'Kansas Wrestling Center',
+      title: 'Network Administrator',
+      logo: logoKwc,
+      start: '2020',
+      end: '2021',
+    },
+    {
+      company: 'Scott Logistics',
+      title: 'Logistics Coordinator',
+      logo: logoScottLogistics,
       start: '2014',
-      end: '2019',
-    },
-    {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
-    },
-    {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      end: '2016',
     },
   ]
 
@@ -276,7 +276,7 @@ export default async function Home() {
             Software engineer, chess enthusiast, and wrestling fanatic.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Aldon, a software engineer and entrepreneur based out of Kansas City. 
+            I’m Aldon, a software engineer and entrepreneur based out of Kansas City.
             I’m a wrestling enthusiast that has a passion for software development.
           </p>
           <div className="mt-6 flex gap-6">
