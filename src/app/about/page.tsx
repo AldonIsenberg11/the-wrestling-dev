@@ -50,7 +50,7 @@ function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'I’m Aldon Isenberg. I live in Kansas City, where I design the future.',
+    'I&rsquo;m Aldon Isenberg. I live in Kansas City, where I design the future.',
 }
 
 export default function About() {
@@ -69,12 +69,12 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            I’m Aldon Isenberg. I live in Kansas City, where I design the
+            I&rsquo;m Aldon Isenberg. I live in Kansas City, where I design the
             future.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I’ve loved making things for as long as I can remember, and wrote
+              I&rsquo;ve loved making things for as long as I can remember, and wrote
               my first program when I was in high school, just weeks after getting ti-86 calculator.
               Programming the quadtraic formula into my calculator was a lot of fun, but I wanted to do more.
             </p>
@@ -82,7 +82,7 @@ export default function About() {
               The only thing I loved more than computers as a kid was wrestling.
               When I was 5, I brought home a flyer for the local youth wrestling 
               club. After attending the tryout camp I was hooked. I continued to 
-              wrestle without missing a season until I graduated college. I've 
+              wrestle without missing a season until I graduated college. I&rsquo;ve 
               even gone as far as to compete in the U.S. Open.
             </p>
             <p>
@@ -93,8 +93,8 @@ export default function About() {
             <p>
               Currently, I work as a software engineer at FloSports, where our focus 
               is on developing the cutting-edge platform for hosting and live streaming 
-              wrestling events. We've accomplished the successful integration of the 
-              FloArena product with the Trackwrestling platform, and we're now dedicated
+              wrestling events. We&rsquo;ve accomplished the successful integration of the 
+              FloArena product with the Trackwrestling platform, and we&rsquo;re now dedicated
               to crafting the forthcoming iteration of the FloSports platform.
             </p>
           </div>
