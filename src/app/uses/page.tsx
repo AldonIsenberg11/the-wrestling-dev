@@ -47,18 +47,18 @@ export default function Uses() {
     >
       <div className="space-y-20">
         <ToolsSection title="Workstation">
-          <Tool title="16” MacBook Pro, M1 Max, 64GB RAM (2021)">
-            I was using an Intel-based 16” MacBook Pro prior to this and the
-            difference is night and day. I’ve never heard the fans turn on a
+          <Tool title="Mac Mini - 10C CPU - 16C GPU">
+            I was using a 16” MacBook Pro prior to this but the stability the
+            Mac Mini has found it's place. I’ve never heard the fans turn on a
             single time, even under the incredibly heavy loads I put it through
-            with our various launch simulations.
+            with load testing simulations.
           </Tool>
           <Tool title="Apple Pro Display XDR (Standard Glass)">
             The only display on the market if you want something HiDPI and
             bigger than 27”. When you’re working at planetary scale, every pixel
             you can get counts.
           </Tool>
-          <Tool title="IBM Model M SSK Industrial Keyboard">
+          <Tool title="Magic Keyboard with Numeric Keypad - US English">
             They don’t make keyboards the way they used to. I buy these any time
             I see them go up for sale and keep them in storage in case I need
             parts or need to retire my main.
@@ -74,19 +74,19 @@ export default function Uses() {
           </Tool>
         </ToolsSection>
         <ToolsSection title="Development tools">
-          <Tool title="Sublime Text 4">
+          <Tool title="VsCode">
             I don’t care if it’s missing all of the fancy IDE features everyone
             else relies on, Sublime Text is still the best text editor ever
             made.
           </Tool>
-          <Tool title="iTerm2">
-            I’m honestly not even sure what features I get with this that aren’t
-            just part of the macOS Terminal but it’s what I use.
+          <Tool title="macOs Terminal">
+            I’m honestly not even sure what features I don’t get with this that aren’t
+            part of the iTerm2 so it’s what I use.
           </Tool>
-          <Tool title="TablePlus">
-            Great software for working with databases. Has saved me from
-            building about a thousand admin interfaces for my various projects
-            over the years.
+          <Tool title="ChatGpt & Github Copilot">
+            ChatGpt & Github copilot has pushed AI to the forefront of my development.
+            It is the best thing to happen to me since my second born child.
+            I use it for everything from writing emails to writing code.
           </Tool>
         </ToolsSection>
         <ToolsSection title="Design">
@@ -97,10 +97,6 @@ export default function Uses() {
           </Tool>
         </ToolsSection>
         <ToolsSection title="Productivity">
-          <Tool title="Alfred">
-            It’s not the newest kid on the block but it’s still the fastest. The
-            Sublime Text of the application launcher world.
-          </Tool>
           <Tool title="Reflect">
             Using a daily notes system instead of trying to keep things
             organized by topics has been super powerful for me. And with
