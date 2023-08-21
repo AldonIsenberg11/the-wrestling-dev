@@ -43,23 +43,23 @@ export default function Uses() {
   return (
     <SimpleLayout
       title="Software I use, gadgets I love, and other things I recommend."
-      intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
+      intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I&rsquo;m being productive when I&rsquo;m really just procrastinating. Here&rsquo;s a big list of all of my favorite stuff."
     >
       <div className="space-y-20">
         <ToolsSection title="Workstation">
           <Tool title="Mac Mini - 10C CPU - 16C GPU">
             I was using a 16” MacBook Pro prior to this but the stability the
-            Mac Mini has found it's place. I’ve never heard the fans turn on a
+            Mac Mini has found it&rsquo;s place. I&rsquo;ve never heard the fans turn on a
             single time, even under the incredibly heavy loads I put it through
             with load testing simulations.
           </Tool>
           <Tool title="Apple Pro Display XDR (Standard Glass)">
             The only display on the market if you want something HiDPI and
-            bigger than 27”. When you’re working at planetary scale, every pixel
+            bigger than 27”. When you&rsquo;re working at planetary scale, every pixel
             you can get counts.
           </Tool>
           <Tool title="Magic Keyboard with Numeric Keypad - US English">
-            They don’t make keyboards the way they used to. I buy these any time
+            They don&rsquo;t make keyboards the way they used to. I buy these any time
             I see them go up for sale and keep them in storage in case I need
             parts or need to retire my main.
           </Tool>
@@ -69,19 +69,19 @@ export default function Uses() {
             powers.
           </Tool>
           <Tool title="Herman Miller Aeron Chair">
-            If I’m going to slouch in the worst ergonomic position imaginable
+            If I&rsquo;m going to slouch in the worst ergonomic position imaginable
             all day, I might as well do it in an expensive chair.
           </Tool>
         </ToolsSection>
         <ToolsSection title="Development tools">
           <Tool title="VsCode">
-            I don’t care if it’s missing all of the fancy IDE features everyone
+            I don&rsquo;t care if it&rsquo;s missing all of the fancy IDE features everyone
             else relies on, Sublime Text is still the best text editor ever
             made.
           </Tool>
           <Tool title="macOs Terminal">
-            I’m honestly not even sure what features I don’t get with this that aren’t
-            part of the iTerm2 so it’s what I use.
+            I&rsquo;m honestly not even sure what features I don&rsquo;t get with this that aren&rsquo;t
+            part of the iTerm2 so it&rsquo;s what I use.
           </Tool>
           <Tool title="ChatGpt & Github Copilot">
             ChatGpt & Github copilot has pushed AI to the forefront of my development.
@@ -91,7 +91,7 @@ export default function Uses() {
         </ToolsSection>
         <ToolsSection title="Design">
           <Tool title="Figma">
-            We started using Figma as just a design tool but now it’s become our
+            We started using Figma as just a design tool but now it&rsquo;s become our
             virtual whiteboard for the entire company. Never would have expected
             the collaboration features to be the real hook.
           </Tool>
@@ -100,7 +100,7 @@ export default function Uses() {
           <Tool title="Reflect">
             Using a daily notes system instead of trying to keep things
             organized by topics has been super powerful for me. And with
-            Reflect, it’s still easy for me to keep all of that stuff
+            Reflect, it&rsquo;s still easy for me to keep all of that stuff
             discoverable by topic even though all of my writing happens in the
             daily note.
           </Tool>
