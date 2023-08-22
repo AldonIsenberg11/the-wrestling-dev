@@ -80,20 +80,20 @@ export default function About() {
             </p>
             <p>
               The only thing I loved more than computers as a kid was wrestling.
-              When I was 5, I brought home a flyer for the local youth wrestling 
-              club. After attending the tryout camp I was hooked. I continued to 
-              wrestle without missing a season until I graduated college. I&rsquo;ve 
+              When I was 5, I brought home a flyer for the local youth wrestling
+              club. After attending the tryout camp I was hooked. I continued to
+              wrestle without missing a season until I graduated college. I&rsquo;ve
               even gone as far as to compete in the U.S. Open.
             </p>
             <p>
               I spent the first few years of my post college career working in
-              the software industry. To teach myself how to code, I spent time 
+              the software industry. To teach myself how to code, I spent time
               building web applications and a few around wrestling projects.
             </p>
             <p>
-              Currently, I work as a software engineer at FloSports, where our focus 
-              is on developing the cutting-edge platform for hosting and live streaming 
-              wrestling events. We&rsquo;ve accomplished the successful integration of the 
+              Currently, I work as a software engineer at FloSports, where our focus
+              is on developing the cutting-edge platform for hosting and live streaming
+              wrestling events. We&rsquo;ve accomplished the successful integration of the
               FloArena product with the Trackwrestling platform, and we&rsquo;re now dedicated
               to crafting the forthcoming iteration of the FloSports platform.
             </p>
@@ -101,16 +101,16 @@ export default function About() {
         </div>
         <div className="lg:pl-20">
           <ul role="list">
-            <SocialLink href="#" icon={TwitterIcon}>
+            <SocialLink href="https://twitter.com/AldonIsenbergII" icon={TwitterIcon}>
               Follow on Twitter
             </SocialLink>
-            <SocialLink href="#" icon={InstagramIcon} className="mt-4">
+            <SocialLink href="https://www.instagram.com/isenbergii/" icon={InstagramIcon} className="mt-4">
               Follow on Instagram
             </SocialLink>
-            <SocialLink href="#" icon={GitHubIcon} className="mt-4">
+            <SocialLink href="https://github.com/AldonIsenberg11" icon={GitHubIcon} className="mt-4">
               Follow on GitHub
             </SocialLink>
-            <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+            <SocialLink href="https://www.linkedin.com/in/aldon-isenberg-ii-137242115/" icon={LinkedInIcon} className="mt-4">
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
