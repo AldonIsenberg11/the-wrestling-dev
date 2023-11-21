@@ -91,11 +91,9 @@ export default function About() {
               building web applications and a few around wrestling projects.
             </p>
             <p>
-              Currently, I work as a software engineer at FloSports, where our focus
-              is on developing the cutting-edge platform for hosting and live streaming
-              wrestling events. We&rsquo;ve accomplished the successful integration of the
-              FloArena product with the Trackwrestling platform, and we&rsquo;re now dedicated
-              to crafting the forthcoming iteration of the FloSports platform.
+              I most recently worked as a software engineer at FloSports, where the focus
+              was upgrading to an event-driven architecture. We&rsquo;ve accomplished the successful integration of the
+              FloArena product with the Trackwrestling platform.
             </p>
           </div>
         </div>

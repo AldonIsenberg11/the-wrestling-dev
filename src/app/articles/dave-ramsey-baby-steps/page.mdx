@@ -17,9 +17,11 @@ export const metadata = {
 
 export default (props) => <ArticleLayout article={article} {...props} />
 
-I'm close to becoming debt free; a goal I had been working for since 2016 when I first started listening to Dave Ramsey
+I found Dave's Youtube channel in 2016, and I was hooked. He inspired to get out of debt, and I started following his Baby Steps.
 
-<Image src={daveRamsey} alt="" />
+I'm proud to say that I am now debt free with a paid off house. I certainly sleep better at night knowing that I don't owe anyone anything.
+
+    <Image src={daveRamsey} alt="" />
 
 Here are the Baby Steps, and how I've been doing with them.
 
@@ -52,11 +54,11 @@ const totalPortfolio = Object.values(portfolio).reduce((a, b) => a + b, 0);
 const netWorth = totalPortfolio - totalDebt;
 
 if (netWorth > 0) {
-  console.log('You are doing great, you should be debt free!');
+  console.log('You are doing great, keep working to be debt free!');
   if (totalDebt === 0) {
     console.log('You are debt free, congratulations!');
   } else {
-    console.log('You are playing with fire!');
+    console.log(`Only ${totalDebt} left to go!`);
   }
 } else {
   console.log('Keep working hard, you will get there!');

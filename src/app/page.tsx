@@ -191,10 +191,7 @@ function Resume() {
       title: 'Software Engineer',
       logo: logoFloSports,
       start: '2022',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear().toString(),
-      },
+      end: '2023',
     },
     {
       company: 'Freightview',
