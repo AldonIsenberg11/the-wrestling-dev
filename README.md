@@ -49,6 +49,12 @@ To learn more about the technologies used in this site template, see the followi
 
 ---
 
-TODO: Add Cool links
+
+# TODO Blogs
+
+- https://support.dnsimple.com/articles/heroku-connector/
+
 - Architecture of gaming consoles: https://www.copetti.org/writings/consoles/
-    - Nintendo 3DS: https://www.copetti.org/writings/consoles/nintendo-3ds/
+  - Nintendo 3DS: https://www.copetti.org/writings/consoles/nintendo-3ds/
+
+
