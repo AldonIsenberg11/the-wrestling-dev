@@ -46,6 +46,26 @@ function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   )
 }
 
+function CalendarIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      {...props}
+    >
+      <rect x="3" y="4" width="18" height="18" rx="2" ry="2" className="fill-none stroke-current" />
+      <line x1="16" y1="2" x2="16" y2="6" className="stroke-current" />
+      <line x1="8" y1="2" x2="8" y2="6" className="stroke-current" />
+      <line x1="3" y1="10" x2="21" y2="10" className="stroke-current" />
+    </svg>
+  );
+}
+
+
 function BriefcaseIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
     <svg
@@ -138,6 +158,27 @@ function Newsletter() {
     </form>
   )
 }
+
+function ScheduleMeeting() {
+  return (
+    <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+      <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+        <CalendarIcon className="h-6 w-6 flex-none" />
+        <span className="ml-3">Schedule a Meeting</span>
+      </h2>
+      <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+        Schedule a meeting with me using the calendar below.
+      </p>
+      <div className="mt-6">
+        {/* Replace the link below with your Calendly scheduling link */}
+        <a href="https://calendly.com/wrestling-dev/meeting-schedule" target="_blank" rel="noopener noreferrer" className="block w-full bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-4 rounded-md text-center">
+          Schedule Now
+        </a>
+      </div>
+    </div>
+  );
+}
+
 
 interface Role {
   company: string
@@ -263,7 +304,7 @@ function Photos() {
 }
 
 export default async function Home() {
-  let articles = (await getAllArticles()).slice(0, 4)
+  let articles = (await getAllArticles()).slice(0, 4);
 
   return (
     <>
@@ -309,11 +350,12 @@ export default async function Home() {
             ))}
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
+            <ScheduleMeeting />
             <Newsletter />
             <Resume />
           </div>
         </div>
       </Container>
     </>
-  )
+  );
 }
