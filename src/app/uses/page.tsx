@@ -104,7 +104,7 @@ export default function Uses() {
             discoverable by topic even though all of my writing happens in the
             daily note.
           </Tool>
-          <Tool title="SavvyCal">
+          <Tool title="Calendly">
             Great tool for scheduling meetings while protecting my calendar and
             making sure I still have lots of time for deep work during the week.
           </Tool>
