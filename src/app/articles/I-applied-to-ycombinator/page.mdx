@@ -1,0 +1,113 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const article = {
+  author: 'Aldon Isenberg',
+  date: '2024-08-29',
+  title: 'I Applied to Y Combinator',
+  description:
+    'I applied to Y Combinator, a startup accelerator that has helped launch companies like Airbnb, Dropbox, and Stripe. Here is the Q/A.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+I applied to Y Combinator, a startup accelerator that has helped launch companies like Airbnb, Dropbox, and Stripe. This is some of the Q/A.
+
+# My Y Combinator Application
+
+## Company
+
+### Company name
+
+Sports Software LLC
+
+### Describe what your company does in 50 characters or less.
+
+SAAS skill-based pairing apps & sports data broker
+
+### Company URL, if any
+
+https://wrestling.events/
+
+### Demo Video
+
+**Going to upload soon**
+
+### Please provide a link to the product, if any.
+
+https://manage.wrestling.events/
+
+### What is your company going to make? Please describe your product and what it does or will do.
+
+My company has developed an API first wrestling event pairing and bracketing software designed to simplify the process for event directors. Our software enables easy event hosting, registration management, and live data tracking during matches. We aim our first product to be the first fully-automated pairing & bracketing system powered by ELO ratings for the sport of wrestling.
+
+Over the past 30 years, I’ve attended countless wrestling events, and there's always been a table at the end of every mat for the scorekeeper, timer, and other officials. These tables not only obstruct fans' views but also pose safety risks—I've even seen wrestlers get slammed into them. We're going to solve this problem by eliminating the need for tables and moving to mobile scorekeeping, which can be managed without a table.
+
+Our goal is to make it quick and painless for event directors to set up and run events, minimizing hassles and complexities while reducing the barrier to entry for hosting. This includes handling SafeSport verifications and processing any sanctions with governing bodies like USA Wrestling and AAU.
+
+By focusing on event directors as the primary SAAS customer, we capture sports data at the source, which can then be brokered to a downstream subscription base whose business models rely on ad revenue generated from this data.
+
+## Progress
+
+### How far along ar you?
+
+Just released an overcooked MVP. It consists of a few different UI's:
+- Event Management Portal - https://manage.wrestling.events/
+- Registration Portal - https://registration.wrestling.events/
+- Matside Controller/Scoreboard - https://matside.wrestling.events
+- Event List/Results - https://wrestling.events/
+
+### How long have each of you been working on this? How much of that has been full-time? Please explain.
+
+I have been working on this full-time for the last 8 months.
+
+### What tech stack are you using, or planning to use, to build this product?
+
+I am using NodeJS on the back-end and VueJS/TailwindCSS on the front-end. We are using MongoDB as the primary data storage. Javascript/Typescript for everything keeps mental overhead simple. We may eventually want to add a stream to help process the data pipeline, so maybe Kafka or Kinesis.
+
+## Idea
+
+### Why did you pick this idea to work on? Do you have domain expertise in this area? How do you know people need what you're making?
+
+I chose this idea because I’ve experienced the need for it firsthand. Last year, I used the only alternative for wrestling event management, and it was overly complex with too many customization options that made it difficult to use. It also required a lot of manual input and lacked real automation.
+
+I bring domain expertise as a former software engineer at FloSports.tv, where I worked on wrestling event management software. In the youth wrestling space, there were two main apps: Trackwrestling, with 80% market share, and FloSports Arena, with 18%. However, Trackwrestling acquired FloSports Arena.
+
+Despite FloSports having a superior product, its ecosystem was fragmented between legacy codebases and incomplete upgrades, requiring my team to juggle Java, PHP, and NodeJS, along with the UIs. After several management changes, the decision was made to sunset the FloSports product and retain Trackwrestling since it was easier to manage as a single repository. However, the remaining product is outdated and inefficient, taking over 22 minutes to build for a simple re-deploy.
+
+My background in wrestling is extensive—I started at age 5, wrestled for the University of Iowa, the winningest college wrestling team in history, and continued competing at the senior level after college. This combination of technical expertise and deep wrestling experience drives my commitment to creating a better solution for wrestling event management.
+
+### Who are your competitors? What do you understand about your business that they don't?
+
+My primary competitor is my former employer, which now controls over 95% of the market share in wrestling event management. They expanded through acquisitions rather than organic growth and lack a clear strategic direction.
+
+Before working at FloSports, I spent seven years at Freightview, a small B2B SaaS company with 12 employees. I started in customer support and transitioned to software engineering within a year. During my time there, we maintained a monthly churn rate of less than 1% and achieved net profitability with over 1,400 customers.
+
+The key difference in our approach is how we prioritize user experience and automation over ad revenue and branding. FloSports focuses heavily on maximizing ad revenue through their platform, often at the expense of user experience. In contrast, I’m committed to keeping my software ad-free to ensure it’s as user-friendly as possible.
+
+Additionally, FloSports, as a sports media company, brands all their products heavily and doesn't share data with other media companies. I intend to remain neutral and encourage all sports media companies to use my software, fostering a more open and collaborative environment.
+
+Ultimately, my long-term vision is to become a data broker for sports, capturing and providing valuable data at the source. By remaining neutral and focusing on interoperability across platforms, I aim to empower other companies to innovate and enhance their offerings, while benefiting from a robust, centralized data ecosystem.
+
+### How do or will you make money? How much could you make?
+_We realize you can't know precisely, but give your best estimate._
+
+Our event management platform generates revenue from three main sources:
+
+1. Event Directors Subscriptions: Our primary customers are event directors who need software to organize competitive events with skill-based pairing and bracketing.
+
+2. Transaction Fees: We capture transaction revenue from event participants registering through our platform.
+
+3. Data Subscriptions: With the sports data stored in our system, we offer a subscription service for sports media and news outlets to access this data via an API.
+
+In youth wrestling alone, there are approximately 2,400 event directors overseeing 4,200 events, each averaging 450 participants per event. High school events follow a similar pattern. We estimate that we could generate around $16-20 million annually with a staff of 15 or less. I'm estimating roughly 75% of that revenue coming from subscriptions.
+
+Our scaling strategy involves expanding into other events that require registration and bracketing, such as basketball, Jiu-Jitsu, pickleball, spikeball, and even in person events like Tekken or MTG games, once we establish a foundational business model with wrestling.
+
+### Which category best applies to your company?
+
+B2B SaaS
