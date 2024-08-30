@@ -75,9 +75,8 @@ export default function Uses() {
         </ToolsSection>
         <ToolsSection title="Development tools">
           <Tool title="VsCode">
-            I don&rsquo;t care if it&rsquo;s missing all of the fancy IDE features everyone
-            else relies on, Sublime Text is still the best text editor ever
-            made.
+            I&rsquo;ve tried them all and I always come back to VsCode. The
+            extensions ecosystem is unmatched and the performance is great.
           </Tool>
           <Tool title="macOs Terminal">
             I&rsquo;m honestly not even sure what features I don&rsquo;t get with this that aren&rsquo;t
