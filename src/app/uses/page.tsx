@@ -83,9 +83,9 @@ export default function Uses() {
             I&rsquo;m honestly not even sure what features I don&rsquo;t get with this that aren&rsquo;t
             part of the iTerm2 so it&rsquo;s what I use.
           </Tool>
-          <Tool title="ChatGpt & Github Copilot">
-            ChatGpt & Github copilot has pushed AI to the forefront of my development.
-            It is the best thing to happen to me since my second born child.
+          <Tool title="Github Copilot">
+            Github copilot has pushed AI to the forefront of my development.
+            It is the best thing to happen to me since my last born child.
             I use it for everything from writing emails to writing code.
           </Tool>
         </ToolsSection>
@@ -97,20 +97,13 @@ export default function Uses() {
           </Tool>
         </ToolsSection>
         <ToolsSection title="Productivity">
-          <Tool title="Reflect">
-            Using a daily notes system instead of trying to keep things
-            organized by topics has been super powerful for me. And with
-            Reflect, it&rsquo;s still easy for me to keep all of that stuff
-            discoverable by topic even though all of my writing happens in the
-            daily note.
+          <Tool title="ChatGpt">
+            There is no better friend than ChatGpt. I use it for everything from
+            writing emails to writing code. 
           </Tool>
           <Tool title="Calendly">
             Great tool for scheduling meetings while protecting my calendar and
             making sure I still have lots of time for deep work during the week.
-          </Tool>
-          <Tool title="Focus">
-            Simple tool for blocking distracting websites when I need to just do
-            the work and get some momentum going.
           </Tool>
         </ToolsSection>
       </div>
