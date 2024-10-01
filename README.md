@@ -22,8 +22,8 @@ npm run dev
 
 Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
 
-
 ## Debugging Prod Server
+
 You will need the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed
 
 ```
@@ -49,12 +49,9 @@ To learn more about the technologies used in this site template, see the followi
 
 ---
 
-
 # TODO Blogs
 
 - https://support.dnsimple.com/articles/heroku-connector/
 
 - Architecture of gaming consoles: https://www.copetti.org/writings/consoles/
   - Nintendo 3DS: https://www.copetti.org/writings/consoles/nintendo-3ds/
-
-
