@@ -15,6 +15,8 @@ import logoKwc from '@/images/logos/ks-wrestling-center.svg'
 import logoFloSports from '@/images/logos/flosports.svg'
 import logoFreightview from '@/images/logos/freightview.svg'
 import logoScottLogistics from '@/images/logos/scott-logistics.svg'
+import logoSportsSoftware from '@/images/logos/sports-software.svg'
+
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -351,7 +353,7 @@ export default async function Home() {
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             <ScheduleMeeting />
-            <Newsletter />
+            {/* <Newsletter /> */}
             <Resume />
           </div>
         </div>

@@ -1,0 +1,10 @@
+<svg width="184" height="184" viewBox="0 0 184 184" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Wrestling mat square -->
+  <rect x="46" y="46" width="92" height="92" rx="8" fill="#0A0A0A" />
+  
+  <!-- Center circle of the wrestling mat -->
+  <circle cx="92" cy="92" r="14" stroke="white" stroke-width="2" fill="transparent" />
+  
+  <!-- Inner circle (for the center mark) -->
+  <circle cx="92" cy="92" r="6" fill="white" />
+</svg>
