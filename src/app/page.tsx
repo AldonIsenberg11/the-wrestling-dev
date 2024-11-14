@@ -208,7 +208,7 @@ function Role({ role }: { role: Role }) {
       <dl className="flex flex-auto flex-wrap gap-x-2">
         <dt className="sr-only">Company</dt>
         <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
-          {role.company}
+          <a href={role.url} target='__blank'>{role.company}</a>
         </dd>
         <dt className="sr-only">Role</dt>
         <dd className="text-xs text-zinc-500 dark:text-zinc-400">
