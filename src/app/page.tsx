@@ -188,6 +188,7 @@ interface Role {
   logo: ImageProps['src']
   start: string | { label: string; dateTime: string }
   end: string | { label: string; dateTime: string }
+  url: string
 }
 
 function Role({ role }: { role: Role }) {
@@ -230,11 +231,20 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
+      company: 'Sports Software LLC',
+      title: 'Founder / CEO',
+      logo: logoSportsSoftware,
+      start: '2023',
+      end: 'Present',
+      url: 'https://www.sportssoftwarellc.com',
+    },
+    {
       company: 'FloSports',
       title: 'Software Engineer',
       logo: logoFloSports,
       start: '2022',
       end: '2023',
+      url: 'https://www.flosports.tv',
     },
     {
       company: 'Freightview',
@@ -242,6 +252,7 @@ function Resume() {
       logo: logoFreightview,
       start: '2016',
       end: '2022',
+      url: 'https://www.freightview.com',
     },
     {
       company: 'Kansas Wrestling Center',
@@ -249,6 +260,7 @@ function Resume() {
       logo: logoKwc,
       start: '2020',
       end: '2021',
+      url: 'https://the.wrestling.dev',
     },
     {
       company: 'Scott Logistics',
@@ -256,6 +268,7 @@ function Resume() {
       logo: logoScottLogistics,
       start: '2014',
       end: '2016',
+      url: 'https://www.scottlogistics.com',
     },
   ]
 
